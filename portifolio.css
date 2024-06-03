@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #020617;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+::selection{
+    background-color: #06B6D4;
+    color:#020617;
+}
+
+/* FIXOS */
+header{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    position: fixed;
+}
+
+#nav_redes_socias{
+    list-style: none;
+    margin-left: 9vh;
+    margin-top: 5vh;
+    position: fixed;
+    background-color: transparent;
+}
+
+.redes_sociais{
+    font-size: 22px;
+    background-color: transparent;
+}
+
+/* PRIMEIRA TELA */
+#nome_top{
+    margin-top: 4vh;
+    margin-left: 20vh;
+    color: white;
+}
+
+#nome_top:hover{
+    color: #06B6D4;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lista_nav{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 4vh;
+    margin-left: 75vh;
+    color: white;
+}
+
+.lista:hover{
+    cursor: pointer;
+    color: #06B6D4;
+    text-decoration: underline;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 27vh;
+    margin-left: 25vh;
+    gap: 15px;
+}
+
+#intro{
+    font-weight: 300;
+    color:rgb(212, 212, 212);
+}
+
+#btn_conheça{
+    margin-top: 20px;
+    color: white;
+    border: 2px solid #3a3ea6;
+    height: 50px;
+    width: 200px;
+    transition: background-color 0.2s ease 0.3s;
+}
+
+#btn_conheça:hover{
+    cursor: pointer;
+    background-color: #039cb8;
+}
+
+
+#Principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minha_foto{
+    margin-top: 30vh;
+    margin-right: 33vh;
+}
+
+/* SEGUNDA TELA */
+
+#Sobre_mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e42ff;
+    margin-top: 140px;
+    
+}
+
+#Sobre_mim p, h2{
+    background-color: #080D1F;
+    color: white;
+}
+
+
+
+
