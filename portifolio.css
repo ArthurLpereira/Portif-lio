@@ -2,12 +2,15 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #020617;
+    /* background-color: #020617; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     color: white;
 }
 
+body{
+    background-color: #020617;
+}
 ::selection{
     background-color: #06B6D4;
     color:#020617;
@@ -19,6 +22,8 @@ header{
     flex-direction: row;
     font-weight: 500;
     position: fixed;
+    background-color: #020617;
+    padding: 20px;
 }
 
 #nav_redes_socias{
@@ -26,17 +31,17 @@ header{
     margin-left: 9vh;
     margin-top: 5vh;
     position: fixed;
-    background-color: transparent;
+    background-color: transparent !important; 
 }
 
 .redes_sociais{
     font-size: 22px;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 /* PRIMEIRA TELA */
 #nome_top{
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: 20vh;
     color: white;
 }
@@ -51,7 +56,7 @@ header{
     list-style: none;
     display: flex;
     gap: 40px;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: 75vh;
     color: white;
 }
@@ -70,6 +75,10 @@ header{
     gap: 15px;
 }
 
+#oq_faço{
+    background-color: #020617;
+}
+
 #intro{
     font-weight: 300;
     color:rgb(212, 212, 212);
@@ -82,6 +91,7 @@ header{
     height: 50px;
     width: 200px;
     transition: background-color 0.2s ease 0.3s;
+    background-color: #020617;
 }
 
 #btn_conheça:hover{
@@ -105,19 +115,21 @@ header{
 /* SEGUNDA TELA */
 
 #Sobre_mim{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #0e42ff;
-    margin-top: 140px;
-    
+    background-color: #080D1F;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-top: 145px;
+    max-width: 135vh;
+    padding: 20px;
 }
 
-#Sobre_mim p, h2{
-    background-color: #080D1F;
-    color: white;
+h2,p #Sobre_mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 
 
