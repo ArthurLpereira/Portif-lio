@@ -77,6 +77,7 @@ header{
 
 #oq_faço{
     background-color: #020617;
+    margin-left: -5vh;
 }
 
 #intro{
@@ -129,8 +130,37 @@ h2,p #Sobre_mim{
     justify-content: center;
 }
 
+/* Terceira Tela */
+#Habilidades{
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 145px;
+}
 
+#Listando_Habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
 
+.Cards{
+    background-color: #080D1F;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+}
 
+.Cards img{
+    display: block;
+    margin: 0 auto;
+}
+
+.Cards H4{
+    margin-top: 15px;
+    color: #039cb8;
+}
 
 
